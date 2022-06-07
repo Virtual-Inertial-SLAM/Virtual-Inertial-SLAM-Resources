@@ -9,4 +9,5 @@ A solution for VI-SLAM performance evaluations in virtual environments using rea
 
 4) Sequence characterization: a Python script to analyze the visual and inertial input data in a SLAM sequence, and correlations with pose error.   
 
+Virtual-Inertial SLAM in action in a virtual museum environment, using ORB-SLAM3 and the SenseTime dataset (camera image is oriented this way due to rotation of the smartphone in this dataset):
 ![GIF of Virtual-Inertial-SLAM in action](https://github.com/Virtual-Inertial-SLAM/Virtual-Inertial-SLAM-Resources/blob/main/Virtual-Inertial-SLAM.gif?raw=true)
