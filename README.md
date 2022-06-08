@@ -1,7 +1,7 @@
 # Virtual-Inertial-SLAM: Resources
 A solution for VI-SLAM performance evaluations in virtual environments using real inertial data. This repository contains the following resources (see below for instructions):
 
-1) Example directory structure (_A1_Name_): A sample of the directory structure which we use to implement our VI-SLAM evaluation methodology.
+1) Example directory structure (_A1_Name.zip_): A sample of the directory structure which we use to implement our VI-SLAM evaluation methodology.
 
 2) Visual data generator (_VisualDataGenerator.cs_): a C# script to attach to the camera in a Unity project, to generate VI-SLAM visual input data from the ground truth file in an existing SLAM dataset, in your choice of virtual environment.
 
