@@ -18,7 +18,7 @@ _Virtual-Inertial-SLAM in action in a virtual museum environment, using ORB-SLAM
 
 Prerequisites: Unity 2020 or later, open-source SLAM algorithm (e.g., ORB-SLAM3: https://github.com/UZ-SLAMLab/ORB_SLAM3). rpg_trajectory_evaluation toolbox (https://github.com/uzh-rpg/rpg_trajectory_evaluation) and Python required for trajectory evaluation and data analysis steps. 
 
-Tested with Unity 2020.3.14f1 (High Definition Render Pipeline) running on Windows 10, ORB-SLAM3 running on Ubuntu 16.04, with TUM VI and SenseTime VI-SLAM datasets._
+Tested with Unity 2020.3.14f1 (High Definition Render Pipeline) running on Windows 10, ORB-SLAM3 running on Ubuntu 16.04, with TUM VI and SenseTime VI-SLAM datasets.
 
 We implement our VI-SLAM evaluation methodology using the following directory structure, that supports execution with ORB-SLAM3:
 
