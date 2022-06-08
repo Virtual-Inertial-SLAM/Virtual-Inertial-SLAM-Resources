@@ -24,7 +24,7 @@ We implement our VI-SLAM evaluation methodology using the following directory st
 
 ![Virtual-Inertial-SLAM directory structure](https://github.com/Virtual-Inertial-SLAM/Virtual-Inertial-SLAM-Resources/blob/main/directory_structure.png?raw=true)
 
-1) Replicate the directory structure above in a convenient location - because we run Unity on Windows and run VI-SLAM on Ubuntu, we set up a shared folder and place it there. Our sample folder, '_A1_Name_', contains this directory structure for the SenseTime A1 sequence, which you can download and copy.
+1) Replicate the directory structure above in a convenient location - because we run Unity on Windows and run VI-SLAM on Ubuntu, we set up a shared folder and place it there. Our sample folder, '_A1_Name.zip_', contains this directory structure for the SenseTime A1 sequence, which you can download and copy.
 
 2) Create a Unity project and create your desired virtual environment. Set the scene camera to have the desired field of view that you wish to use. Create a render texture with the dimensions of VI-SLAM input images you wish to use; set the color format to 'R8G8B8A8_UNORM' to generate grayscale camera images. Set the render texture under 'Output>Target Texture' of your camera, and set the W and H values of 'Output>Viewport Rect' to match the image dimensions. Attach the visual data generation script provided in this repository (_visual_data_generator.cs_) to the camera game object, and within that script, edit the values under 'User-defined parameters' as required, and save.
 
