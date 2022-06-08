@@ -20,11 +20,11 @@ Prerequisites: Unity 2020 or later, open-source SLAM algorithm (e.g., ORB-SLAM3:
 
 Tested with Unity 2020.3.14f1 (High Definition Render Pipeline) running on Windows 10, ORB-SLAM3 running on Ubuntu 16.04, with TUM VI and SenseTime VI-SLAM datasets.
 
-1) Download the VI-SLAM dataset of your choice in a convenient location (e.g., TUM VI: https://vision.in.tum.de/data/datasets/visual-inertial-dataset, SenseTime: http://www.zjucvg.net/eval-vislam/dataset/). You will need the inertial data and the ground truth pose data for the sequences you wish to use.
-
 We implement our VI-SLAM evaluation methodology using the following directory structure, that supports execution with ORB-SLAM3:
 
 ![Virtual-Inertial-SLAM directory structure](https://github.com/Virtual-Inertial-SLAM/Virtual-Inertial-SLAM-Resources/blob/main/directory_structure.png?raw=true)
+
+1) Download the VI-SLAM dataset of your choice in a convenient location (e.g., TUM VI: https://vision.in.tum.de/data/datasets/visual-inertial-dataset, SenseTime: http://www.zjucvg.net/eval-vislam/dataset/). You will need the inertial data and the ground truth pose data for the sequences you wish to use.
 
 2) Replicate the directory structure above in a convenient location - because we run Unity on Windows and run VI-SLAM on Ubuntu, we set up a shared folder and place it there. Our sample folder, '_A1_Name.zip_', contains this directory structure for the SenseTime A1 sequence, which you can download, unzip and copy.
 
