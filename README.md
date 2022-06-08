@@ -27,7 +27,7 @@ We implement our VI-SLAM evaluation methodology using the following directory st
                       ├── imu0                 # Folder containing inertial data
                           ├── data.csv                 # Timestamped inertial data
                 ├── A1.txt                 # Image timestamps (required by ORB-SLAM3)      
-          ├── A1_0                # Other variations (A1_1, A1_2 etc.)
+          ├── A1_0                # Folder for visual data generated for this sequence + environment combination
                 ├── mav0                 # Folder containing input data
                       ├── cam0                 # Folder containing visual data
                           ├── data                 # Folder where visual data image files are generated
