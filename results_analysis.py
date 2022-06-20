@@ -224,6 +224,7 @@ for setting in range(0, 10):
     #Get list of image timestamps
     os.chdir(image_dataset)
     image_files = os.listdir()
+    image_files = sorted(image_files)
     images = []
     for file in image_files:
         image = file.replace(".png","")
